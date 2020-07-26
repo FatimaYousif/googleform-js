@@ -1,0 +1,66 @@
+.main, footer
+{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1em;
+     width:500px;
+}
+.blue
+{
+    color:blue;
+}
+#email
+{
+    height: 50px;
+    width: 280px;
+    border-radius: 3px;
+    border:1px solid black;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.container2 .row
+{
+margin-right :2em;
+}
+#login
+{
+    padding: 0.5em 2em;
+    border:none;
+    color:white;
+    background-color: blue;
+    border-radius: 5px;
+    margin-left:55%; 
+}
+
+footer{
+    /* margin:0em 2em 2em em; */
+    display: flex;
+    justify-content: center;
+
+}
+ul a{
+    color:#757575;
+    text-decoration: none;
+}
+ul li
+{
+    display: inline;
+    margin-right:1em;
+   
+}
+#lang
+{
+    border: none;
+    margin-right: 5em;
+}
